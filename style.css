@@ -1,0 +1,284 @@
+.logo{
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.9)), url('https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/915988c20bba56c0b5691503/pexels-photo-3218467.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;    
+    font-size: 16px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    background-attachment: fixed;
+    color: white;
+    padding: 5%;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    margin-top: 10%;
+    font-size: 50px;
+}
+p{
+    width: 60%;
+    margin: auto;
+    padding-top: 1%;
+}
+.about_info{
+    margin: auto;
+    padding: 2%;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    max-width: 70%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;    
+}
+.a_text{
+    font-size: 18px;
+    margin-bottom: 2%;
+}
+h2{
+    margin-bottom: 2%;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: 33% 33.5% 33.5%;
+    grid-template-rows: 50% 50%;    
+    min-height: 810px;    
+}
+.headers{
+    padding-bottom: 5%;
+}
+.history{
+    text-align: center;
+    padding: 5%;
+    margin: 5%;
+    font-family: 'Open Sans', sans-serif;
+}
+.cake{    
+    background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/62c4998046a15404b6087759/pexels-marta-dzedyshko-2067396.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.rasp{
+    background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/1a2b51f955095ac4927b66b5/pexels-photo-4099237.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.community{
+    text-align: center;
+    padding: 5%;
+    margin: 5%;
+    font-family: 'Open Sans', sans-serif;
+}
+.oats{
+    background-image: url('https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/1d2b8399c28556d891209d24/pexels-photo-949069.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.philosophy{
+    text-align: center;
+    padding: 5%;
+    margin: 5%;
+    font-family: 'Open Sans', sans-serif;
+}
+.events{       
+    margin: auto;
+    text-align: center;
+    max-height: 600px;        
+}
+.grid_a{
+    display: grid;    
+    
+    min-height: 331px;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px 10px;
+    margin: 2% auto;
+    text-align: center;    
+    width: 70%;
+}
+.dates{
+    font-weight: 700;
+    font-size: 50px;
+}
+.eventts{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 60px auto 0;
+}
+.healthy{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 20px auto 0 10px;
+}
+.bttn{
+    font-size: 20px;
+    background-color: white;
+    border: 2px solid black;
+    transition-duration: 0.2s;
+    width: 250px;    
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+.bttn:hover {
+    background-color: black;
+    color: white;
+}
+.bg-img-1{
+    background: linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.9)), url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/c44a1e21763c56419018e398/restaurant-love-romantic-dinner.jpg");
+}
+.bg-img-2{
+    background: linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.9)), url('https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/fb61f726efc3506db850a6ff/pexels-photo-745988.jpeg');
+}
+.carousel-inner{
+    padding: 60px 0;
+}
+.cars-img{
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;             
+    color: white;
+    padding: 400px 0;
+    font-family: 'Open Sans', sans-serif;        
+}
+.feed{
+    padding-bottom: 5px;
+    font-weight: 100;
+}
+.exc{
+    width: 60%;
+    margin: auto;
+    font-size: 45px;
+}
+.menu{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.container { 
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr;     
+    justify-content: center; 
+    align-content: center; 
+    justify-items: center; 
+    align-items: center; 
+    width: 90%; 
+    height: 50%; 
+    text-align: center;
+}
+.grid-b{
+    display: grid;
+    padding-top: 5%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: row;    
+    grid-template-areas:
+      "qqq qqq www www"
+      "qqq qqq e z";    
+    height: 800px;    
+  }
+  
+.q {
+    grid-area: qqq;
+    background-image: url('https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/c44a1e21763c56419018e398/restaurant-love-romantic-dinner.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.w {
+    grid-area: www;
+    background-image: url('https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/c0365602381358fd8a0cc939/pexels-photo-5491337.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+  
+.e {
+    grid-area: e;
+    background-image: url('https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/1bbaf22427455a638f2bfb81/pexels-photo-2762942.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+  
+.z {
+    grid-area: z;
+    background-image: url('https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/62c4998046a15404b6087759/pexels-marta-dzedyshko-2067396.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+.numbers{
+    margin: auto;
+    display: flex;
+    padding: 5%;
+    font-family: 'Open Sans', sans-serif;    
+    justify-content: center;
+    width: 70%;
+}
+.minigrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 10px;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 810px;
+    min-height: 272px; 
+    margin: 60px auto 0 0;  
+}
+.meat{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+.rice{
+    text-align: center;
+    margin: auto;
+    width: 100%;    
+}
+.crois{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+.b_c{
+    width: 279px;
+    min-height: 279px;    
+    text-align: center;
+    margin: auto;
+    background: black;
+    border: 0.1875em;
+    border-radius: 50%;    
+    color: white;
+    justify-content: center;
+    display: flex;
+    max-width: 100%;
+    padding: 100px;
+}
+.forms{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    width: 80%;
+}
+.f_line{
+    width: 550px;
+    height: 25px;
+    margin: auto;
+    text-align: left;
+    text-decoration: none;    
+}
